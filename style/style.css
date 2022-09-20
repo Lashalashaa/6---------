@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    }
+    header{
+    background-color: #000000;
+    width: 100%;
+    height: 94px;
+    padding:12px 100px;
+    }
+    header h1{
+    width: 70px;
+    height: 70px;
+    
+    background-image: url(../suratebi/logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    float: left;
+    margin-right: 168px;
+    }
+    header h1 a{
+        display: block;
+        width: 70px;
+    height: 70px;
+    }
+    header li{
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px;
+        color: #ffffff;
+        padding-bottom: 5px;
+        position: relative;
+        cursor: pointer;
+        }
+    header li::before{
+        content: "";
+        width: 0;
+        height: 1px;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 1s;
+        
+
+    }
+    header li:hover:before{
+        width: 100%;
+        
+    }
+         .social{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 120px;
+            right: 0;
+         }
+         .fb a{
+            background-image: url(../suratebi/fb1.png);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: fixed;
+}
+         
+   .fb a:hover{
+    background-image: url(../suratebi/\ fblurji.png);
+   }
+   .social2{
+    width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 170px;
+            right: 0;
+
+   }
+   .insta a{
+    background-image: url(../suratebi/ig1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+   }
+   .insta a:hover{
+    background-image: url(../suratebi/in2.png);
+   }
+
+     
+     
+     main{
+        padding-top: 80px;
+        padding-left: 110px;
+        position: relative;
+    }
+     .today1{
+       padding-bottom: 50px;
+     }
+     section{
+        width: 300px;
+        height: 244px;
+        border: 1px solid #000000;
+        position: relative;
+        
+        background-image: url(../suratebi/sound\ 1.png);
+       background-repeat: repeat-x;
+       background-size: 25%;
+       background-position-y: 56px;
+     }
+     
+     .heart{
+        width: 50px;
+        height:50px ;
+        
+        background-image: url(../suratebi/heart.png);
+        position: absolute
+        ;
+        top: 0;
+        right: 0;
+     }
+     .heart:hover{
+        background-image: url(../suratebi/like\ 2.png);
+     }
+section h3{
+     margin-top: 144px ;
+     margin-left: 12px;
+     }
+section p{
+    margin-left: 12px;
+    margin-top: 14px;
+     }
+.text{
+    margin-top: 10px;
+     }
+article{
+    margin-right: 90px;
+    margin-bottom: 52px;
+    float: left;
+     }
+article p a{
+    color: #000000;
+    }
+.bolo1{
+    margin-bottom: 100px;
+     }
+
+
+.meoresatauri{
+    padding-bottom: 22px;
+    }
+footer{
+    clear: both;
+    background-color: #000000;
+    width: 100%;
+    height: 354px;
+    }
+footer img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 26px auto;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    }
+footer li{
+    color: #ffffff;
+    text-align: center;
+    }
+footer p{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 16px;}
+    .seqcia{
+        width: 280px;
+        height: 360px;
+        border: 1px solid #000000;
+        float: left;
+        margin-right: 156px;
+       margin-bottom: 46px;
+    }
+    .seqcia h2{
+        padding-bottom: 72px;
+    }
+    
+    .seqcia p{
+        padding-bottom: 8px;
+        }
+    .surati{
+        clear: both;
+        width: 256px;
+        height: 64px;
+        background-image: url(../suratebi/sound\ 1.png);
+        background-repeat: repeat-x;
+        background-size: 25%;
+       
+        margin: auto;
+        margin-bottom: 108px;
+       }
+    .meore{
+        margin-right: 10px;
+        margin-bottom: 138px;
+       }
+
+    .igive{ clear: both;
+        width: 256px;
+        height: 64px;
+        background-image: url(../suratebi/sound\ 1.png);
+        background-repeat: repeat-x;
+        background-size: 25%;
+        margin:  auto;
+        margin-bottom: 106px;
+        }
+      .meoregv{
+        text-align: center;
+        margin-bottom: 142px;
+        } 
+        .seqcia:hover{
+            width: 300px;
+            height: 360px;
+            background-color: #ffffff;
+            border: 1px solid #ffffff;
+            box-shadow: 0 0 10px ;
+            cursor: pointer;
+        }
